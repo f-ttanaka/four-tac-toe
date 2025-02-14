@@ -1,0 +1,8 @@
+cradle:
+  cabal:
+    - path: "./src"
+      component: "lib:backend"
+    - path: "./exe"
+      component: "exe:backend"
+    # - path: "./tests/BiosTests.hs"
+    #   component: "test:backend"
